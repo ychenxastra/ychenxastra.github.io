@@ -1,20 +1,6 @@
-# arasgungore.github.io
+# ychenxastra.github.io
 
-My portfolio website built using HTML, CSS, and JavaScript. You can check it out [here](https://arasgungore.github.io).
+This repository is forked from [@arasgungore](https://github.com/arasgungore), who is the original author for personal website [here](https://arasgungore.github.io).
 
+Several sections and designes are made correspondingly.
 
-
-## Screenshots
-
-<p float="center">
-    <img src="https://github.com/arasgungore/arasgungore.github.io/blob/main/Screenshots/1.png" width="800">
-</p>
-
-
-
-## Author
-
-👤 **Aras Güngöre**
-
-* LinkedIn: [@arasgungore](https://www.linkedin.com/in/arasgungore)
-* GitHub: [@arasgungore](https://github.com/arasgungore)
