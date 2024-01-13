@@ -759,6 +759,87 @@ section .container {
 }
 
 /*--------------------------------------------------------------
+# Services1
+--------------------------------------------------------------*/
+.services .icon-box1 {
+  text-align: center;
+  background: #ffffff; /*渐变框*/
+  padding: 40px 40px;
+  transition: all ease-in-out 0.3s;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.services .icon-box1 .icon {
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+  background: #ffffff; /*no change*/
+  border-radius: 5px;
+  transition: all .3s ease-out 0s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transform-style: preserve-3d;
+}
+
+.services .icon-box1 .icon i {
+  color: #fff;
+  font-size: 28px;
+}
+
+.services .icon-box1 .icon::before {
+  position: absolute;
+  content: '';
+  left: -8px;
+  top: -8px;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 5px;
+  transition: all .3s ease-out 0s;
+  transform: translateZ(-1px);
+}
+
+.services .icon-box1 h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.services .icon-box1 h4 a {
+  color: #fff;
+}
+
+.services .icon-box1 p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+/*.services .icon-box1:hover {
+  background: #f2f2f2; /*渐变框*/
+/*  border-color: #5798c5;*/
+/*}*/
+
+/*.services .icon-box1:hover .icon {
+  background: #fff;
+}
+
+.services .icon-box1:hover .icon i {
+  color: #5798c5;
+}
+
+.services .icon-box1:hover .icon::before {
+  background: #fcd603;
+}
+
+.services .icon-box1:hover h4 a, .services .icon-box:hover p {
+  color: #5798c5;
+}*/
+
+/*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
